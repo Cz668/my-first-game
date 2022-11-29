@@ -1,0 +1,1 @@
+<view><canvas hidden="{{!(canvasShow)}}" id="collisionCtx" type="2d"></canvas><canvas id="canvas1" type="2d" data-event-opts="{{[['touchstart',[['touch',['$event']]]]]}}" bindtouchstart="__e"></canvas><block wx:if="{{restore}}"><button data-event-opts="{{[['tap',[['restoreGame',['$event']]]]]}}" bindtap="__e">重新开始</button></block></view>
